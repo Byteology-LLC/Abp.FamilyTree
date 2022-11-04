@@ -16,7 +16,7 @@ public class AlienMenuContributor : IMenuContributor
     private Task ConfigureMainMenuAsync(MenuConfigurationContext context)
     {
         //Add main menu items.
-        context.Menu.AddItem(new ApplicationMenuItem(AlienMenus.Prefix, displayName: "Alien", "~/Alien", icon: "fa fa-globe"));
+        context.Menu.AddItem(new ApplicationMenuItem(AlienMenus.Prefix, displayName: "Alien",  icon: "fab fa-reddit-alien"));
 
         return Task.CompletedTask;
     }
