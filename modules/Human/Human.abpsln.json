@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Human": {
+      "path": "Human.abpmdl.json"
+    }
+  }
+}

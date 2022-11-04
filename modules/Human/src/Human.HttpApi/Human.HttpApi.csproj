@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Human</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="6.0.1" />
+    <ProjectReference Include="..\..\..\Species\src\Species.HttpApi\Species.HttpApi.csproj" />
+    <ProjectReference Include="..\Human.Application.Contracts\Human.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

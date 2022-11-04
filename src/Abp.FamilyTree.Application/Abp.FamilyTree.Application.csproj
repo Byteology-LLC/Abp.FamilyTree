@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Abp.FamilyTree</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abp.FamilyTree.Domain\Abp.FamilyTree.Domain.csproj" />
+    <ProjectReference Include="..\Abp.FamilyTree.Application.Contracts\Abp.FamilyTree.Application.Contracts.csproj" />
+  <ProjectReference Include="..\..\modules\Species\src\Species.Application\Species.Application.csproj" /><ProjectReference Include="..\..\modules\Human\src\Human.Application\Human.Application.csproj" /><ProjectReference Include="..\..\modules\Alien\src\Alien.Application\Alien.Application.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.Application" Version="6.0.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="6.0.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="6.0.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="6.0.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="6.0.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>

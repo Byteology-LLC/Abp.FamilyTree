@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Species": {
+      "path": "Species.abpmdl.json"
+    }
+  }
+}

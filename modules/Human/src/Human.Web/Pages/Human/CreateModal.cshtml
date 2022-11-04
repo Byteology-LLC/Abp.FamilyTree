@@ -1,0 +1,39 @@
+﻿@page
+@using Human.Web.Menus
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.Extensions.Localization
+@using Human.Localization
+@using Human.Web.Pages.Human
+@using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Modal
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@model Human.Web.Pages.Human.CreateModalModel
+@inject IStringLocalizer<HumanResource> L
+@inject IAuthorizationService Authorization
+@{
+    Layout = null;
+}
+
+<form data-ajaxForm="true" asp-page="/Human/CreateModal" autocomplete="off">
+    <abp-modal id="HumanCreateModal">
+        <abp-modal-header title="@L["NewHuman"].Value"></abp-modal-header>
+
+        <abp-modal-body>
+            <abp-input asp-for="Human.Name" />
+
+            <abp-input asp-for="Human.DateOfBirth" />
+
+            <abp-input asp-for="Human.DateOfDeath" />
+
+            <abp-input asp-for="Human.EyeColor" />
+
+            <abp-input asp-for="Human.HairColor" />
+
+            <abp-select asp-for="Human.Mother" asp-items="Model.MotherLookupList" label="@L["Mother"].Value" />
+
+            <abp-select asp-for="Human.Father" asp-items="Model.FatherLookupList" label="@L["Father"].Value" />
+
+        </abp-modal-body>
+
+        <abp-modal-footer buttons="@(AbpModalButtons.Cancel|AbpModalButtons.Save)"></abp-modal-footer>
+    </abp-modal>
+</form>

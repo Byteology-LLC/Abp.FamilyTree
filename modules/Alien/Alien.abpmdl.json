@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Alien.Domain.Shared": {
+      "path": "src/Alien.Domain.Shared/Alien.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.Domain": {
+      "path": "src/Alien.Domain/Alien.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.Application.Contracts": {
+      "path": "src/Alien.Application.Contracts/Alien.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.Application": {
+      "path": "src/Alien.Application/Alien.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.EntityFrameworkCore": {
+      "path": "src/Alien.EntityFrameworkCore/Alien.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.MongoDB": {
+      "path": "src/Alien.MongoDB/Alien.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.HttpApi": {
+      "path": "src/Alien.HttpApi/Alien.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.HttpApi.Client": {
+      "path": "src/Alien.HttpApi.Client/Alien.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.TestBase": {
+      "path": "test/Alien.TestBase/Alien.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Alien.EntityFrameworkCore.Tests": {
+      "path": "test/Alien.EntityFrameworkCore.Tests/Alien.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Alien.MongoDB.Tests": {
+      "path": "test/Alien.MongoDB.Tests/Alien.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Alien.Domain.Tests": {
+      "path": "test/Alien.Domain.Tests/Alien.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Alien.Application.Tests": {
+      "path": "test/Alien.Application.Tests/Alien.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Alien.HttpApi.Host": {
+      "path": "host/Alien.HttpApi.Host/Alien.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Alien.Web": {
+      "path": "src/Alien.Web/Alien.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Alien.HttpApi.Client.ConsoleTestApp/Alien.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Alien.Web.Host": {
+      "path": "host/Alien.Web.Host/Alien.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Alien.AuthServer": {
+      "path": "host/Alien.AuthServer/Alien.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Alien.Host.Shared": {
+      "path": "host/Alien.Host.Shared/Alien.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Alien.Web.Unified": {
+      "path": "host/Alien.Web.Unified/Alien.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Alien.Blazor": {
+      "path": "src/Alien.Blazor/Alien.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.Blazor.Host": {
+      "path": "host/Alien.Blazor.Host/Alien.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Alien.Blazor.Server": {
+      "path": "src/Alien.Blazor.Server/Alien.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.Blazor.WebAssembly": {
+      "path": "src/Alien.Blazor.WebAssembly/Alien.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Alien.Blazor.Server.Host": {
+      "path": "host/Alien.Blazor.Server.Host/Alien.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

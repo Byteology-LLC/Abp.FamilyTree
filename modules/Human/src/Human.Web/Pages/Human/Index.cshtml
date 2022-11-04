@@ -1,0 +1,46 @@
+﻿@page
+@using Human.Web.Menus
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.Extensions.Localization
+@using Human.Localization
+@using Human.Web.Pages.Human
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@model Human.Web.Pages.Human.IndexModel
+@inject IStringLocalizer<HumanResource> L
+@inject IAuthorizationService Authorization
+@inject IPageLayout PageLayout
+@{
+    PageLayout.Content.Title = L["Human"].Value;
+    PageLayout.Content.MenuItemName = HumanMenus.Prefix;
+}
+
+@section scripts
+    {
+    <abp-script src="/Pages/Human/index.js" />
+}
+
+@section styles
+{
+    <abp-style src="/Pages/Human/index.css" />
+}
+
+@section content_toolbar {
+    <abp-button id="NewHumanButton" text="@L["NewHuman"].Value" icon="plus" button-type="Primary" />
+}
+<h1>Human</h1>
+<abp-card>
+    <abp-card-body>
+        <abp-table striped-rows="true" id="HumanityTable">
+            <thead>
+                <tr>
+                    <th>@L["Actions"]</th>
+                    <th>@L["Name"]</th>
+                    <th>@L["DateOfBirth"]</th>
+                    <th>@L["DateOfDeath"]</th>
+                    <th>@L["HairColor"]</th>
+                    <th>@L["EyeColor"]</th>
+                </tr>
+            </thead>
+        </abp-table>
+    </abp-card-body>
+</abp-card>

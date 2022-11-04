@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Alien": {
+      "path": "Alien.abpmdl.json"
+    }
+  }
+}

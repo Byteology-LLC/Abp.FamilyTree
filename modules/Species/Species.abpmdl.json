@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Species.Domain.Shared": {
+      "path": "src/Species.Domain.Shared/Species.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Species.Domain": {
+      "path": "src/Species.Domain/Species.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Species.Application.Contracts": {
+      "path": "src/Species.Application.Contracts/Species.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Species.Application": {
+      "path": "src/Species.Application/Species.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Species.EntityFrameworkCore": {
+      "path": "src/Species.EntityFrameworkCore/Species.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Species.MongoDB": {
+      "path": "src/Species.MongoDB/Species.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Species.HttpApi": {
+      "path": "src/Species.HttpApi/Species.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Species.HttpApi.Client": {
+      "path": "src/Species.HttpApi.Client/Species.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Species.TestBase": {
+      "path": "test/Species.TestBase/Species.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Species.EntityFrameworkCore.Tests": {
+      "path": "test/Species.EntityFrameworkCore.Tests/Species.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Species.MongoDB.Tests": {
+      "path": "test/Species.MongoDB.Tests/Species.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Species.Domain.Tests": {
+      "path": "test/Species.Domain.Tests/Species.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Species.Application.Tests": {
+      "path": "test/Species.Application.Tests/Species.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Species.HttpApi.Host": {
+      "path": "host/Species.HttpApi.Host/Species.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Species.Web": {
+      "path": "src/Species.Web/Species.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Species.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Species.HttpApi.Client.ConsoleTestApp/Species.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Species.Web.Host": {
+      "path": "host/Species.Web.Host/Species.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Species.AuthServer": {
+      "path": "host/Species.AuthServer/Species.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Species.Host.Shared": {
+      "path": "host/Species.Host.Shared/Species.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Species.Web.Unified": {
+      "path": "host/Species.Web.Unified/Species.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Species.Blazor": {
+      "path": "src/Species.Blazor/Species.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Species.Blazor.Host": {
+      "path": "host/Species.Blazor.Host/Species.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Species.Blazor.Server": {
+      "path": "src/Species.Blazor.Server/Species.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Species.Blazor.WebAssembly": {
+      "path": "src/Species.Blazor.WebAssembly/Species.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Species.Blazor.Server.Host": {
+      "path": "host/Species.Blazor.Server.Host/Species.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

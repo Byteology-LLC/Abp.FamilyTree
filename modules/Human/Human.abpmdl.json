@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Human.Domain.Shared": {
+      "path": "src/Human.Domain.Shared/Human.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Human.Domain": {
+      "path": "src/Human.Domain/Human.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Human.Application.Contracts": {
+      "path": "src/Human.Application.Contracts/Human.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Human.Application": {
+      "path": "src/Human.Application/Human.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Human.EntityFrameworkCore": {
+      "path": "src/Human.EntityFrameworkCore/Human.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Human.MongoDB": {
+      "path": "src/Human.MongoDB/Human.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Human.HttpApi": {
+      "path": "src/Human.HttpApi/Human.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Human.HttpApi.Client": {
+      "path": "src/Human.HttpApi.Client/Human.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Human.TestBase": {
+      "path": "test/Human.TestBase/Human.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Human.EntityFrameworkCore.Tests": {
+      "path": "test/Human.EntityFrameworkCore.Tests/Human.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Human.MongoDB.Tests": {
+      "path": "test/Human.MongoDB.Tests/Human.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Human.Domain.Tests": {
+      "path": "test/Human.Domain.Tests/Human.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Human.Application.Tests": {
+      "path": "test/Human.Application.Tests/Human.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Human.HttpApi.Host": {
+      "path": "host/Human.HttpApi.Host/Human.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Human.Web": {
+      "path": "src/Human.Web/Human.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Human.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Human.HttpApi.Client.ConsoleTestApp/Human.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Human.Web.Host": {
+      "path": "host/Human.Web.Host/Human.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Human.AuthServer": {
+      "path": "host/Human.AuthServer/Human.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "Human.Host.Shared": {
+      "path": "host/Human.Host.Shared/Human.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Human.Web.Unified": {
+      "path": "host/Human.Web.Unified/Human.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Human.Blazor": {
+      "path": "src/Human.Blazor/Human.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Human.Blazor.Host": {
+      "path": "host/Human.Blazor.Host/Human.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Human.Blazor.Server": {
+      "path": "src/Human.Blazor.Server/Human.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Human.Blazor.WebAssembly": {
+      "path": "src/Human.Blazor.WebAssembly/Human.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Human.Blazor.Server.Host": {
+      "path": "host/Human.Blazor.Server.Host/Human.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

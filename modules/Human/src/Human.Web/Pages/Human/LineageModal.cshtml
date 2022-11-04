@@ -1,0 +1,85 @@
+﻿@page
+@using Human.Web.Menus
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.Extensions.Localization
+@using Human.Localization
+@using Human.Web.Pages.Human
+@using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Modal
+@using Volo.Abp.AspNetCore.Mvc.UI.Layout
+@model Human.Web.Pages.Human.LineageModalModel
+@inject IStringLocalizer<HumanResource> L
+@inject IAuthorizationService Authorization
+@inject IPageLayout PageLayout
+@{
+    PageLayout.Content.Title = Model.Human.Organism.Name;
+    PageLayout.Content.MenuItemName = HumanMenus.Prefix;
+}
+
+@section styles
+    {
+    <abp-style src="/Pages/Human/index.css" />
+}
+
+    <div class="tree">
+        <ul>
+            <li>
+                <h4>Mother: @Model.Human.Mother?.Name</h4>
+                <div>
+                    <p>Date Of Birth: @Model.Human.Mother?.DateOfBirth</p>
+                    <p>Hair: @Model.Human.Mother?.HairColor</p>
+                    <p>
+                        EyeColor: @Model.Human.Mother?.EyeColor
+                    </p>
+                @if (Model.Human.Mother?.DateOfDeath != null)
+                {
+                    <p><span>Died: @Model.Human.Mother?.DateOfDeath</span></p>
+                }
+            </div>
+        </li>
+        <li>
+            <h4>Father: @Model.Human.Father?.Name</h4>
+            <div>
+                <p>Date Of Birth: @Model.Human.Father?.DateOfBirth</p>
+                <p>Hair: @Model.Human.Father?.HairColor</p>
+                <p>EyeColor: @Model.Human.Father?.EyeColor</p>
+                @if (Model.Human.Father?.DateOfDeath != null)
+                {
+                    <p>Died: @Model.Human.Father?.DateOfDeath</p>
+                }
+            </div>
+            <ul>
+                <!-- Subject in Question -->
+                <li>
+                    <h4>@Model.Human.Organism.Name</h4>
+                    <div>
+                        <p>Date Of Birth: @Model.Human.Organism.DateOfBirth</p>
+                        <p>Hair: @Model.Human.Organism.HairColor</p>
+                        <p>EyeColor: @Model.Human.Organism.EyeColor</p>
+                        @if (Model.Human.Organism.DateOfDeath.HasValue)
+                        {
+                            <p>Died: @Model.Human.Organism.DateOfDeath</p>
+                        }
+                    </div>
+                    <ul>
+                        <!-- Offspring -->
+                        @foreach (var offspring in Model.Human.Offspring)
+                        {
+                            <li>
+                                <h4>@offspring.Name</h4>
+                                <div>
+                                    <p>Date Of Birth: @offspring.DateOfBirth</p>
+                                    <p>Hair: @offspring.HairColor</p>
+                                    <p>EyeColor: @offspring.EyeColor</p>
+                                    @if (offspring.DateOfDeath.HasValue)
+                                    {
+                                        <p>Died: @offspring.DateOfDeath</p>
+                                    }
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

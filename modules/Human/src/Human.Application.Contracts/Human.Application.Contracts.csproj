@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Human</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="6.0.1" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="6.0.1" />
+    <ProjectReference Include="..\..\..\Species\src\Species.Application.Contracts\Species.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Human.Domain.Shared\Human.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
